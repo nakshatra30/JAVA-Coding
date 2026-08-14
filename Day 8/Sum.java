@@ -29,5 +29,6 @@ public class Sum {
         int res = findArraySum(nums);
 
         System.out.println("Sum: " + res);
+        sc.close();
     }
 }
