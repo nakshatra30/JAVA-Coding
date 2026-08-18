@@ -15,7 +15,6 @@ public class Entry_pass {
             temp = temp / 10;
         }
         temp = n;
-
         while (temp > 0) {
             int digit = temp % 10;
             sum += Math.pow(digit, digits);
